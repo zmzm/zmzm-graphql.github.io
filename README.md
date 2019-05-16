@@ -1,3 +1,3 @@
 ## GraphQL presentation
 
-(http://zmzm-graphql.github.io.git)
+http://zmzm.github.io
