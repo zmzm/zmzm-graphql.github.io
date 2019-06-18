@@ -48,45 +48,41 @@
           <img src="assets/img/graphql-white.svg" class="logo-image"/>
 
           <p style="text-align: center" class="title-font">
-            Introduction to <strong>GraphQL</strong>
-          </p>
-
-          <p style="font-size: 70%; opacity: 0.5" class="normal-font">
-            by Uladzislau Kavalski
+            Дивный сказ о том кто такой <strong>GraphQL</strong>
           </p>
 				</section>
 
         <section>
-          <h2>Typical Rest API</h2>
+          <h2>Типичный Rest API</h2>
 
           <img src="assets/img/rest-api.svg" style="width: 80%">
         </section>
 
         <section>
-          <h2>Common Issues</h2>
+          <h2>Основные неудобства/проблемы</h2>
 
           <ul>
             <li>
               Over-fetching
 
               <ul class="fragment fade-in" data-fragment-index="1">
-                <li>/products?<span class="qname">field</span>=<span class="qvalue">name</span>&<span class="qname">field</span>=<span class="qvalue">description</span>&<span class="qname">field</span>=<span class="qvalue">variants[*].price</span></li>
+                <li>Данных получили много, может это и хорошо, но мне они вроде как и не нужны и что с ними делать пока неизвестно</li>
               </ul>
             </li>
             <li class="fragment fade-in" data-fragment-index="2">
               Under-fetching
 
               <ul class="fragment fade-in" data-fragment-index="3">
-                <li>/products?<span class="qname">expand</span>=<span class="qvalue">productType</span>&<span class="qname">expand</span>=<span class="qvalue">variants[*].price.taxRate</span></li>
+                <li>Опять получили данные, но как-то маловато, надо бы еще чуть-чуть но бэкендеры делать это естественно не хотят</li>
               </ul>
             </li>
             <li class="fragment fade-in" data-fragment-index="4">
-              API changes and evolution
+              Изменение (эволюционирование) API
 
               <ul class="fragment fade-in" data-fragment-index="5">
-                <li>Versioning</li>
+                <li>Версионирование</li>
                 <li>Deprecation</li>
-                <li>Maintenance</li>
+                <li>Поддержка</li>
               </ul>
             </li>
           </ul>
@@ -99,7 +95,7 @@
         </section>
 
         <section>
-          <h2>GraphQL Approach</h2>
+          <h2>Подход GraphQL</h2>
 
           <img src="assets/img/graphql-api.svg" style="max-width: 70%">
         </section>
